@@ -9,7 +9,7 @@ class UsersController < ApplicationController
     redirect_to  user_path(@user)
  end
 
-　def edit
+  def edit
     @user = User.find(params[:id])
   end
 
